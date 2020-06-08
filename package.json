@@ -1,0 +1,26 @@
+{
+  "name": "rskelly",
+  "version": "1.0.0",
+  "description": "An easier to use Skeleton Loader for React.",
+  "main": "index.js",
+  "scripts": {
+    "build:package": "parcel build src/rskelly.tsx",
+    "dev:package": "parcel src/rskelly.tsx",
+    "build:examples": "parcel build examples/index.html",
+    "dev:examples": "parcel examples/index.html"
+  },
+  "author": "Alex White",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-content-loader": "^5.0.4",
+    "react-dom": "^16.13.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "module": "dist/rskelly.js"
+}
